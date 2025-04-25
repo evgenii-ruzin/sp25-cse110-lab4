@@ -1,0 +1,2 @@
+1. the bug was that the program was interpreting num1 and num2 as strings, so instead of adding numbers it was concatenating strings
+2. to fix the bug, the program needed to make sure that num1 and num2 are treated as numbers. To do this, I initialized both num1 and num2 to be (value of the box * 1), so they will be treated as numbers
